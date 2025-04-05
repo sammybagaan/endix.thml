@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('https://i.pinimg.com/736x/e6/1e/58/e61e58e644811d3422bd1a927d3b5c4c.jpg') no-repeat center center/cover;
+}
+
+.calendar {
+    background-color: rgba(92, 13, 72, 0.8);
+    color: white;
+    border-radius: 10px;
+    max-width: 700px;
+    width: 100%;
+    padding: 50px;
+}
+.header {
+    font-size: 24px;
+}
+
+.today {
+    background-color: orangered !important;
+    color: rgb(131, 8, 247) !important;
+}
+
+.prev-month, .next-month {
+    color: #777;
+    opacity: 0.5;
+}
+.table {
+    font-size: 18px;
+}
+.days td {
+    padding: 25px; 
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
